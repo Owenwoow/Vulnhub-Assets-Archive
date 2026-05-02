@@ -1,0 +1,38 @@
+	This policy covers all computer and communication devices owned or operated by Nakimura Industries. This
+policy also covers any computer and communications device that are present on Nakimura Industries
+premises, but which may not be owned or operated by Nakimura Industries. The Auditors Incorperated 
+will not perform Denial of Service activities.
+
+1.0 Policy
+	When requested, and for the purpose of performing an audit, consent to access needed will be provided to
+members of Auditors Incorperated. Nakimura Industries hereby provides its consent to allow Auditors Incorperated
+to access its networks and/or firewalls to the extent necessary to allow Auditors Incorperated to perform the
+scans authorized in this agreement. Nakimura Industries shall provide protocols, addressing information, and
+network connections sufficient for Auditors Incorperated to utilize the software to perform network scanning.
+This access may include:
+	- User level and/or system level access to any computing or communications device
+	- Access to information (electronic, hardcopy, etc.) that may be produced, transmitted or stored on
+	  Nakimura Industries equipment or premises
+	- Access to work areas (labs, offices, cubicles, storage areas, etc.)
+	- Access to interactively monitor and log traffic on Nakimura Industries networks.
+1.1 Network Control.
+	If Client does not control their network and/or Internet service is provided via a
+second or third party, these parties are required to approve scanning in writing if scanning is to occur
+outside of the Nakimura Industries' LAN. By signing this agreement, all involved parties acknowledge that
+they authorize of Auditors Incorperated to use their service networks as a gateway for the conduct of
+these tests during the dates and times specified.
+1.2 Service Degradation and/or Interruption.
+	Network performance and/or availability may be affected
+by the network scanning. Nakimura Industries releases Auditors Incorperated of any and all liability for
+damages that may arise from network availability restrictions caused by the network scanning, unless such
+damages are the result Auditors Incorperated's gross negligence or intentional misconduct.
+1.3 Client Point of Contact During the Scanning Period.
+	Nakimura Industries shall identify in writing a person to be available if the result Auditors
+Incorperated Scanning Team has questions regarding data discovered or requires assistance.
+1.4 Scanning period.
+	Nakimura Industries and Auditors Incorperated Scanning Team shall identify in writing the allowable
+dates for the scan to take place.
+
+2.0 Enforcement
+	Any employee found to have violated this policy may be subject to disciplinary action, up to and
+including termination of employment.

@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo chown root:root /home/
+sudo chown -R alamo:developers /home/alamo/
+sudo chown -R nobody:developers /home/development/
+sudo chown -R etenenbaum:users /home/etenenbaum/
+sudo chown -R gmckinnon:users /home/gmckinnon/
+sudo chown -R hreiser:staff /home/hreiser/
+sudo chown -R jdraper:users /home/jdraper/
+sudo chown -R jjames:staff /home/jjames/
+sudo chown -R jljohansen:developers /home/jljohansen/
+sudo chown -R kpoulsen:users /home/kpoulsen/
+sudo chown -R ltorvalds:admin /home/ltorvalds/
+sudo chown -R mrbutler:staff /home/mrbutler/
+sudo chown -R rtmorris:users /home/rtmorris/

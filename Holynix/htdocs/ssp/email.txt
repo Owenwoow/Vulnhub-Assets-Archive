@@ -1,0 +1,42 @@
+	This policy covers appropriate use of any email sent from a Nakimura Industries email address and
+applies to all employees, vendors, and agents operating on behalf of Nakimura Industries.
+
+1.0 Policy
+1.1 Prohibited Use.
+	The Nakimura Industries email system shall not to be used for the creation or
+distribution of any disruptive or offensive messages, including offensive comments about race, gender, hair
+color, disabilities, age, sexual orientation, pornography, religious beliefs and practice, political beliefs, or
+national origin. Employees who receive any emails with this content from any Nakimura Industries
+employee should report the matter to their supervisor immediately.
+1.2 Personal Use.
+	Using a reasonable amount of Nakimura Industries resources for personal emails is acceptable, but non-
+work related email shall be saved in a separate folder from work related email. Sending chain letters or
+joke emails from a Nakimura Industries email account is prohibited. Virus or other malware warnings
+and mass mailings from Nakimura Industries shall be approved by Nakimura Industries VP
+Operations before sending. These restrictions also apply to the forwarding of mail received by a
+Nakimura Industries employee.
+1.3 Monitoring
+	Nakimura Industries employees shall have no expectation of privacy in anything they store, send or
+receive on the company?s email system. Nakimura Industries may monitor messages without prior
+notice. Nakimura Industries is not obliged to monitor email messages.
+
+2.0 Enforcement
+	Any employee found to have violated this policy may be subject to disciplinary action, up to and
+including termination of employment.
+
+3.0 Definitions
+Term                         Definition
+Email                             The electronic transmission of information through a mail protocol such as
+                             SMTP or IMAP. Typical email clients include Eudora and Microsoft Outlook.
+Forwarded email                   Email resent from an internal network to an outside point.
+Chain email or letter             Email sent to successive people. Typically the body of the note has direction
+                             to send out multiple copies of the note and promises good luck or money if the
+                             direction is followed.
+Sensitive information             Information is considered sensitive if it can be damaging to Nakimura
+                             Industries or its customers' reputation or market standing.
+Virus warning.                    Email containing warnings about virus or malware. The overwhelming majority
+                             of these emails turn out to be a hoax and contain bogus information usually
+                             intent only on frightening or misleading users.
+Unauthorized Disclosure           The intentional or unintentional revealing of restricted information to
+                             people, both inside and outside Nakimura Industries, who do not have a need to know
+                             that information.

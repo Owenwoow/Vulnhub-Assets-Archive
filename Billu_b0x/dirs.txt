@@ -1,0 +1,17 @@
+# === 状态码 200（高利用价值）
+http://192.168.200.155/add.php		# 文件上传，sql注入
+http://192.168.200.155/head.php		# 应该是 index 页面的头图，就一张图片
+http://192.168.200.155/images/		# 存放了三张图片，猜测是文件上传的路径
+http://192.168.200.155/in			# phpinfo()页面
+http://192.168.200.155/phpmy/		# phpmyadmin 登入界面
+http://192.168.200.155/index.php	# 网站主页，post登入框，似乎存在sql注入
+
+# === 状态码 301/302: 重定向 (通常指向登录页或资源目录) ===
+http://192.168.200.155/images      -> http://192.168.200.155/images/
+http://192.168.200.155/panel       -> http://192.168.200.155/index.php
+http://192.168.200.155/panel.php   -> http://192.168.200.155/index.php
+
+# === 状态码 200 （无效）
+http://192.168.200.155/c			# 空白页面
+http://192.168.200.155/show			# 空白页面
+http://192.168.200.155/test.php		# 提示：“'file' parameter is empty. Please provide file path in 'file' parameter ”，可能又文件包含，但是找不到对应参数

@@ -1,0 +1,18 @@
+=== 状态码 200（高利用价值）
+http://192.168.200.156/update.php		# 升级脚本，可能存在未授权访问、逻辑漏洞或敏感路径泄露
+http://192.168.200.156/phpmyadmin/		# phpMyAdmin 登入界面，数据库攻击的核心入口，可尝试弱口令或版本漏洞
+http://192.168.200.156/core/fragments/moduleInfo.phtml		# 模块信息文件，直接泄露了后端组件（如 Doctrine）和可能的框架版本
+http://192.168.200.156/modules/		# 模块目录，200 状态码表示可列目录或存在默认页，用于探测已安装的插件源码
+http://192.168.200.156/favicon.ico		# 网站图标，可通过计算 Hash 值（如 mmh3）来识别 CMS 或 Web 框架类型
+
+=== 状态码 301/302（重定向）
+http://192.168.200.156/phpmyadmin -> http://192.168.200.156/phpmyadmin/
+http://192.168.200.156/core -> http://192.168.200.156/core/
+http://192.168.200.156/gallery -> http://192.168.200.156/gallery/
+http://192.168.200.156/style -> http://192.168.200.156/style/
+http://192.168.200.156/cache -> http://192.168.200.156/cache/
+
+=== 状态码 401/403（潜在价值/需绕过）
+http://192.168.200.156/phpmyadmin/scripts/setup.php		# 401 认证，phpMyAdmin 安装引导，若配置不当可泄露敏感配置
+http://192.168.200.156/data/		# 403 页面，但子路径名显示使用了 Zend/Doctrine ORM，有助于针对性寻找框架漏洞
+http://192.168.200.156/server-status		# 403 页面，Apache 服务状态，若能绕过可监控当前全站访问请求及 IP
