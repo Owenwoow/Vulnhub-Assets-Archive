@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Wed May  6 01:18:20 2026 as: /usr/lib/nmap/nmap --privileged -sT -p- --min-rate 10000 -oA ports 192.168.200.157
+Nmap scan report for 192.168.200.157
+Host is up (0.00012s latency).
+Not shown: 65531 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:0C:29:A8:7A:D8 (VMware)
+
+# Nmap done at Wed May  6 01:18:21 2026 -- 1 IP address (1 host up) scanned in 1.12 seconds

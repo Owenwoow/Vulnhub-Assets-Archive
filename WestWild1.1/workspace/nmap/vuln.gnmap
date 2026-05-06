@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed May  6 01:30:09 2026 as: /usr/lib/nmap/nmap --privileged --script=vuln -p22,80,139,445 -oA vuln 192.168.200.157
+Host: 192.168.200.157 ()	Status: Up
+Host: 192.168.200.157 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+# Nmap done at Wed May  6 01:35:32 2026 -- 1 IP address (1 host up) scanned in 322.62 seconds

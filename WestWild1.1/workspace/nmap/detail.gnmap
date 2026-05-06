@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed May  6 01:20:24 2026 as: /usr/lib/nmap/nmap --privileged -sT -sV -sC -O -p22,80,139,445 -oA detail 192.168.200.157
+Host: 192.168.200.157 ()	Status: Up
+Host: 192.168.200.157 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/, 445/open/tcp//netbios-ssn//Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)/	OS: Linux 3.2 - 4.14|Linux 3.8 - 3.16	Seq Index: 259	IP ID Seq: All zeros
+# Nmap done at Wed May  6 01:20:37 2026 -- 1 IP address (1 host up) scanned in 13.02 seconds

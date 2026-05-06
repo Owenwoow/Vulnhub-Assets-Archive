@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed May  6 01:18:20 2026 as: /usr/lib/nmap/nmap --privileged -sT -p- --min-rate 10000 -oA ports 192.168.200.157
+Host: 192.168.200.157 ()	Status: Up
+Host: 192.168.200.157 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///	Ignored State: closed (65531)
+# Nmap done at Wed May  6 01:18:21 2026 -- 1 IP address (1 host up) scanned in 1.12 seconds

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed May  6 01:20:24 2026 as: /usr/lib/nmap/nmap -&#45;privileged -sT -sV -sC -O -p22,80,139,445 -oA detail 192.168.200.157 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sT -sV -sC -O -p22,80,139,445 -oA detail 192.168.200.157" start="1778044824" startstr="Wed May  6 01:20:24 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="4" services="22,80,139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.200.157" addrtype="ipv4"/>
+<address addr="00:0C:29:A8:7A:D8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1778044824" endtime="1778044837"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.200.157" addrtype="ipv4"/>
+<address addr="00:0C:29:A8:7A:D8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="6.6.1p1 Ubuntu 2ubuntu2.13" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.6.1p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 6f:ee:95:91:9c:62:b2:14:cd:63:0a:3e:f8:10:9e:da (DSA)&#xa;  2048 10:45:94:fe:a7:2f:02:8a:9b:21:1a:31:c5:03:30:48 (RSA)&#xa;  256 97:94:17:86:18:e2:8e:7a:73:8e:41:20:76:ba:51:73 (ECDSA)&#xa;  256 23:81:c7:76:bb:37:78:ee:3b:73:e2:55:ad:81:32:72 (ED25519)"><table>
+<elem key="bits">1024</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAKPiiFkzklTW5DPczJoOFxkcQy2UwWzXxbk5dHPD28dqfG7tJvaD4e4cckihVYFhYjnW0bMLPS38DVbw9CgT3A8KB8KOO8DoE3ekZZaP1yC+AmJz5gbF95l21DY5JzUbvkbIh6agn4IAp/GLuFcrjjSMN/SYTYvAxQE35ujuA0aRAAAAFQC4b/z+9/WbC9Wrb8K10nTEVnLBhwAAAIAG2PnrOCSU2mB/cH5K4YVYOTSuCeIVwpFG8KvfqCTtJPFcgMOVV/A4wddLcnlYdwfMI1qBCdZVeIDH+LYMs+3HdeO6GlobcLXJc3PHnDuePthhriltrgfn1WSQ9LCvEPdwdDoDvosRY1FtmNgStjEzIzdkkgnsLoCwhLC0PQLNjQAAAH8MZGD4w0gjiFWFCBeaNmVm+TOa6SINPSB36VyB1Ec0rOJGeR04iiw1FTWCGIR7BotdaNP4jh19OwB7Ol2Ku6AF7brPDUD5zeCs8YzziHtJEMMLIX2NEKTNyYJW0qDm9mVMzf53ABe0YBpqS/wWgCBiUZo0yVhOwqFHjJAcDElT</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">6fee95919c62b214cd630a3ef8109eda</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCT2zvyN1VHTEbo8pUXrwORa+7G92r33/RFmBUI+7bTfpQLa5Yd2FfC8waCOQxZS/OxKp8bT43J9YmURnQOfT/U+HSV4DtXvYs2feg26RK86Kyy5YAUg53nsDlH+i01vd2kV1FdLRsioylmY92a2Y69IY3lhzFT3/CfIn4YYajD/OJuJtLFUtOzoN2WM6a461sBdH0g5sDIVpNGaDBuQP/ei23ByingdaCNQJNosnLeB/+UP4Kgiv1ndeJW7WEFUSTzaKrV0lHycu4+azZUd92UZlBBBSmjivBQXSiAFJfo8LwIyjEdMgpegQiGEQi2b5qU/2sBdjMdTt2XY+CzxRdd</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">104594fea72f028a9b211a31c5033048</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH3rBbv4qB/72uKu/EVVEHajmUV7VBUUFcZJvMa7nNgwsc2M2u08q8TEMK/qqN3ACRo5XLAfzMmvViPl9MysEA8=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">9794178618e28e7a738e412076ba5173</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIJnqGRjU2UtJyFgp1wPs19RRGtKkYchM0aCpk2DcRJIT</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">2381c776bb3778ee3b73e255ad813272</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-server-header" output="Apache/2.4.7 (Ubuntu)"><elem>Apache/2.4.7 (Ubuntu)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" hostname="WESTWILD" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Samba smbd" version="4.3.11-Ubuntu" extrainfo="workgroup: WORKGROUP" hostname="WESTWILD" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="udp" portid="43627"/>
+<osmatch name="Linux 3.2 - 4.14" accuracy="100" line="68432">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8 - 3.16" accuracy="100" line="69380">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="427" lastboot="Wed May  6 01:13:30 2026"/>
+<distance value="1"/>
+<tcpsequence index="259" difficulty="Good luck!" values="20B7024E,D59DFEF4,6C368D49,E4F3BA70,7741745E,4EFA8928"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="19E2D,19E46,19E5F,19E78,19E91,19EAA"/>
+<hostscript><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Windows 6.1 (Samba 4.3.11-Ubuntu)&#xa;  Computer name: westwild&#xa;  NetBIOS computer name: WESTWILD\x00&#xa;  Domain name: \x00&#xa;  FQDN: westwild&#xa;  System time: 2026-05-06T08:20:37+03:00&#xa;"><elem key="os">Windows 6.1</elem>
+<elem key="lanmanager">Samba 4.3.11-Ubuntu</elem>
+<elem key="server">WESTWILD\x00</elem>
+<elem key="date">2026-05-06T08:20:37+03:00</elem>
+<elem key="fqdn">westwild</elem>
+<elem key="domain_dns">\x00</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="clock-skew" output="mean: -1h00m00s, deviation: 1h43m55s, median: 0s"><elem key="stddev">6235</elem>
+<elem key="mean">-3600</elem>
+<elem key="median">0</elem>
+<elem key="count">3</elem>
+</script><script id="smb2-security-mode" output="&#xa;  3:1:1: &#xa;    Message signing enabled but not required"><table key="3:1:1">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2026-05-06T05:20:37&#xa;  start_date: N/A"><elem key="date">2026-05-06T05:20:37</elem>
+<elem key="start_date">N/A</elem>
+</script><script id="nbstat" output="NetBIOS name: WESTWILD, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)"/></hostscript><times srtt="314" rttvar="350" to="100000"/>
+</host>
+<runstats><finished time="1778044837" timestr="Wed May  6 01:20:37 2026" summary="Nmap done at Wed May  6 01:20:37 2026; 1 IP address (1 host up) scanned in 13.02 seconds" elapsed="13.02" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

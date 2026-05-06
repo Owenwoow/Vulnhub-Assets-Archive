@@ -1,0 +1,22 @@
+# Dirsearch started Wed May  6 01:36:30 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://192.168.200.157 -o web_dirs.txt
+
+403   293B   http://192.168.200.157/.ht_wsr.txt
+403   296B   http://192.168.200.157/.htaccess.orig
+403   298B   http://192.168.200.157/.htaccess.sample
+403   296B   http://192.168.200.157/.htaccess.save
+403   297B   http://192.168.200.157/.htaccess_extra
+403   296B   http://192.168.200.157/.htaccess_orig
+403   294B   http://192.168.200.157/.htaccess_sc
+403   294B   http://192.168.200.157/.htaccessBAK
+403   294B   http://192.168.200.157/.htaccessOLD
+403   295B   http://192.168.200.157/.htaccessOLD2
+403   287B   http://192.168.200.157/.html
+403   286B   http://192.168.200.157/.htm
+403   296B   http://192.168.200.157/.htpasswd_test
+403   292B   http://192.168.200.157/.htpasswds
+403   293B   http://192.168.200.157/.httr-oauth
+403   286B   http://192.168.200.157/.php
+403   287B   http://192.168.200.157/.php3
+403   296B   http://192.168.200.157/.htaccess.bak1
+403   295B   http://192.168.200.157/server-status
+403   296B   http://192.168.200.157/server-status/
