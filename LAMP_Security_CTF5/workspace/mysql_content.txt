@@ -1,0 +1,161 @@
+mysql> show databases;
+show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema | 
+| contacts           | 
+| drupal             | 
+| mysql              | 
+| test               | 
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use contacts;
+use contacts;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+
+mysql> show tables;
+show tables;
++--------------------+
+| Tables_in_contacts |
++--------------------+
+| contact            | 
++--------------------+
+1 row in set (0.00 sec)
+
+mysql> select * from contact;
+select * from contact;
++----+--------------------+--------------------------------+--------------+--------------------+
+| id | name               | email                          | phone        | org                |
++----+--------------------+--------------------------------+--------------+--------------------+
+|  1 | Patrick Fair       | patrick@localhost.localdomain  | 555.123.4567 | Phake Organization | 
+|  2 | Mr. Important User | important@localhost            | 555.123.4567 | Secret Org         | 
+|  3 | Jennifer Sea       | jennifer@localhost.localdomain | 555.123.4567 | Phake Organization | 
+|  4 | Andy Carp          | andy@localhost.localdomain     | 555.123.4567 | Phake Organization | 
+|  5 | Loren Felt         | loren@localhost.localdomain    | 555.123.4567 | Phake Organization | 
+|  6 | Amy Pendleton      | amy@localhost.localdomain      | 555.123.4567 | Phake Organization | 
++----+--------------------+--------------------------------+--------------+--------------------+
+6 rows in set (0.00 sec)
+
+
+
+mysql> use drupal;
+use drupal;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
+show tables;
++-------------------------+
+| Tables_in_drupal        |
++-------------------------+
+| access                  | 
+| authmap                 | 
+| blocks                  | 
+| blocks_roles            | 
+| boxes                   | 
+| cache                   | 
+| cache_content           | 
+| cache_filter            | 
+| cache_menu              | 
+| cache_page              | 
+| cache_views             | 
+| comments                | 
+| contact                 | 
+| content_type_blog       | 
+| content_type_event      | 
+| content_type_page       | 
+| content_type_story      | 
+| event                   | 
+| file_revisions          | 
+| files                   | 
+| filter_formats          | 
+| filters                 | 
+| flood                   | 
+| history                 | 
+| menu                    | 
+| node                    | 
+| node_access             | 
+| node_comment_statistics | 
+| node_counter            | 
+| node_field              | 
+| node_field_instance     | 
+| node_group              | 
+| node_group_fields       | 
+| node_revisions          | 
+| node_type               | 
+| permission              | 
+| role                    | 
+| search_dataset          | 
+| search_index            | 
+| search_total            | 
+| sequences               | 
+| sessions                | 
+| system                  | 
+| term_data               | 
+| term_hierarchy          | 
+| term_node               | 
+| term_relation           | 
+| term_synonym            | 
+| url_alias               | 
+| users                   | 
+| users_roles             | 
+| variable                | 
+| view_argument           | 
+| view_exposed_filter     | 
+| view_filter             | 
+| view_sort               | 
+| view_tablefield         | 
+| view_view               | 
+| vocabulary              | 
+| vocabulary_node_types   | 
+| watchdog                | 
++-------------------------+
+61 rows in set (0.00 sec)
+
+mysql> desc users;
+desc users;
++---------------+------------------+------+-----+---------+-------+
+| Field         | Type             | Null | Key | Default | Extra |
++---------------+------------------+------+-----+---------+-------+
+| uid           | int(10) unsigned | NO   | PRI | 0       |       | 
+| name          | varchar(60)      | NO   | UNI |         |       | 
+| pass          | varchar(32)      | NO   |     |         |       | 
+| mail          | varchar(64)      | YES  |     |         |       | 
+| mode          | tinyint(4)       | NO   |     | 0       |       | 
+| sort          | tinyint(4)       | YES  |     | 0       |       | 
+| threshold     | tinyint(4)       | YES  |     | 0       |       | 
+| theme         | varchar(255)     | NO   |     |         |       | 
+| signature     | varchar(255)     | NO   |     |         |       | 
+| created       | int(11)          | NO   | MUL | 0       |       | 
+| access        | int(11)          | NO   | MUL | 0       |       | 
+| login         | int(11)          | NO   |     | 0       |       | 
+| status        | tinyint(4)       | NO   |     | 0       |       | 
+| timezone      | varchar(8)       | YES  |     | NULL    |       | 
+| language      | varchar(12)      | NO   |     |         |       | 
+| picture       | varchar(255)     | NO   |     |         |       | 
+| init          | varchar(64)      | YES  |     |         |       | 
+| data          | longtext         | YES  |     | NULL    |       | 
+| timezone_name | varchar(50)      | NO   |     |         |       | 
++---------------+------------------+------+-----+---------+-------+
+19 rows in set (0.00 sec)
+
+mysql> select uid,name,pass,mail from users;
+select uid,name,pass,mail from users;
++-----+----------+----------------------------------+--------------------+
+| uid | name     | pass                             | mail               |
++-----+----------+----------------------------------+--------------------+
+|   0 |          |                                  |                    | 
+|   1 | jennifer | e3f4150c722e6376d87cd4d43fef0bc5 | jennifer@localhost | 
+|   2 | patrick  | 5f4dcc3b5aa765d61d8327deb882cf99 | patrick@localhost  | 
+|   3 | andy     | b64406d23d480b88fe71755b96998a51 | andy@localhost     | 
+|   4 | loren    | 6c470dd4a0901d53f7ed677828b23cfd | loren@localhost    | 
+|   5 | amy      | e5f0f20b92f7022779015774e90ce917 | amy@localhost      | 
+|   6 | owen     | ec1bfc4849584f8a9b5672364b1bf52f | abc@123.com        | 
++-----+----------+----------------------------------+--------------------+
+7 rows in set (0.03 sec)

@@ -1,0 +1,41 @@
+.block a {
+  width: 270px;
+}
+.site-name {
+  width: 409px;
+}
+#profile .profile {
+  width: 95%;
+}
+
+#body2 {
+  text-align: center;
+}
+#wrapper {
+  text-align: left;
+  margin: 0;
+  overflow: hidden;
+}
+
+#primary a.active {
+  text-decoration:none;
+  background: url('images/nav_tab_right_ie.png') no-repeat bottom right;
+}
+#primary a.active span {
+  background: url('images/nav_tab_left_ie.png') no-repeat bottom left;
+  color: #3f6000;
+  font-weight: bold;
+}
+
+#page2 {
+  background: url('images/frame_body_ie.png');
+}
+#footer {
+  background:url('images/frame_footer_ie.png');
+}
+#footer2 {
+  background:url('images/frame_copyright_ie.gif');
+}
+.comment1 {
+  background:url('images/comments_box_top_ie.jpg') no-repeat;
+}

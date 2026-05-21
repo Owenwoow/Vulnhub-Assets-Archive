@@ -1,0 +1,358 @@
+/* andreas02 - a free xhtml/css website layout by Andreas Viklund - http://andreasviklund.com - Free to use for any purpose as long as the proper credits are given to the original author.
+
+Version: 2.0 (Jan 29, 2007)
+
+	Modified by Nick Young, 26 January 2008 for use with Drupal 5.0.
+	Update to fix IE6 issues by Nick Young 24 May 2008
+	
+	Also see: http://www.maxdesign.com.au/presentation/center/
+*/
+/*
+Screen layout: 
+*/
+
+body {
+	padding:15px 0 0 0;
+	font:76% tahoma, verdana, sans-serif;
+	background:#e0e0e0;
+	color:#303030;
+	/*width:750px;*/		/*fix for IE6 - width will not work on body tag, must have its own container */
+	text-align: center; /*fix for IE6 - width will not work on body tag, must have its own container */
+}
+#pagecontainer{
+	width:750px;
+	margin:0 auto;
+	text-align: left; /*fix for IE6 - counteracts the centring in body... */
+}
+a {
+	/*color:#303030;*/
+	color:#3030A0;
+	text-decoration:none;
+	border-bottom:1px dotted #505050;
+}
+
+a:hover {
+	color:#303030;
+	text-decoration:none;
+	border-bottom:1px solid #505050;
+}
+
+h1 {
+	margin:0 0 20px 0;
+	font-size:2.2em;
+	font-weight:normal;
+}
+
+h2 {
+	margin:0 0 12px 0;
+	font-size:1.6em;
+	font-weight:normal;
+}
+
+h3 {
+	margin:0 0 10px 0;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+p {
+	margin:0 0 15px 0;
+	line-height:1.5em;
+	text-align:left;
+}
+
+a img {
+	border:0;
+}
+/* Toptab menu */
+
+#toptabs {
+	/*margin:10px auto -13px auto;*/
+	font-size:0.8em;
+	text-align:right;
+}
+
+#toptabs p {
+	text-align:right;
+	color:#808080;
+	display:inline;
+}
+
+#toptabs li, #toptabs ul 
+{
+	list-style:none;
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#toptabs li a
+{
+	display:inline;
+	list-style:none;
+	padding:4px 5px 1px 5px;/* top right bottom left */
+	margin:0 0 0 2px;
+	text-decoration:none;
+	background:#f0f0f0 url(images/corner2.gif) top right no-repeat;
+	color:#808080;
+	border-bottom:1px solid #e0e0e0;
+}
+
+#toptabs li a:hover {
+	background:#fafafa url(images/corner2.gif) top right no-repeat;
+	border-bottom:1px solid #eaeaea;
+	color:#505050;
+	text-decoration:none;
+}
+
+#toptabs li a.active,
+#toptabs li a.active:link,
+#toptabs li a.active:visited 
+{
+	padding:4px 5px 3px 5px;
+	margin:0 0 0 4px;
+	color:#505050;
+	text-decoration:none;
+	background:#ffffff url(images/corner2.gif) top right no-repeat;
+	border-bottom:1px solid #ffffff;
+}
+
+#toptabs li a.active:hover {
+	text-decoration:none;
+	border-bottom:1px solid #ffffff;
+}
+/* Site title section */
+
+#logo {
+	margin:15px 0 0 0;
+}
+#logo img{
+	padding:0px;
+	margin:0;
+	border:none;	
+}
+#logo a {
+	text-decoration:none;
+	border: none;
+}
+#logo h1{
+	display: inline;
+}
+#logo h1 a {
+	color:#505050;
+	border:none;
+}
+
+#logo h1 a:hover {
+	color:#303030;
+	text-decoration:none;
+	border:none;
+}
+
+/* Main container */
+
+#container {
+	margin:0 auto 20px auto;
+	padding:5px 20px 20px 20px;
+	background:#ffffff;
+}
+/* Navitab menu */
+
+#navitabs {
+/*clear:both;*/
+}
+#navitabs li {
+	padding:0;
+	margin:0;
+}
+#navitabs a {
+	
+	padding:4px 8px 4px 8px;
+	margin:0 0 4px 0;
+	text-decoration:none;
+	font-size:1.1em;
+	background:#e0e0e0 url(images/corner.gif) top right no-repeat;
+	border-bottom:1px solid #ffffff;
+	border-left:1px solid #ffffff;
+}
+
+#navitabs a:hover {
+	text-decoration:none;
+	background:#d0d0d0 url(images/corner.gif) top right no-repeat;
+	border-bottom:1px solid #ffffff;
+}
+
+#navitabs a.active {
+	padding:4px 8px 4px 8px;
+	color:#ffffff;
+	margin:0 0 4px 0;
+	font-size:1.1em;
+	text-decoration:none;
+	border-bottom:1px solid #505050;
+	background:#505050 url(images/corner.gif) top right no-repeat;
+}
+
+#navitabs a.active:hover {
+	text-decoration:none;
+	color:#ffffff;
+}
+/* Header description */
+
+#desc {
+	height:200px;
+	color:#ffffff;
+	padding:0;
+	background:#505050 url(images/front.jpg) top left no-repeat;
+	/*clear:both;*/
+	margin:5px 0 15px 0;
+}
+#desc p {
+	width:290px;
+	font-size:1em;
+	line-height:1.3em;
+	padding:0 0 0 15px;
+}
+#desc h2 {
+	padding:15px 15px 0 15px;
+	color:#ffffff;
+}
+#desc a {
+	color:#ffffff;
+	text-decoration:none;
+	border-color:#ffffff;
+}
+/*.right {
+	margin-top:-8px;
+	text-align:right;
+}*/
+/* 
+	Main content 
+*/
+
+#main {
+	width:540px;
+	float:left;
+	padding:0 10px 0 0;
+	margin:0;
+	border-right:1px solid #d8d8d8;
+
+}
+/*
+	Sidebar
+*/
+#sidebar {
+	width:148px;
+	float:right;
+}
+
+#sidebar p {
+	font-size:0.9em;
+	line-height:1.3em;
+	/*margin:0 0 15px 0;*/
+}
+#sidebar a {
+	text-align:left;
+	display:block;
+	background:#f0f0f0 url(images/corner.gif) top right no-repeat;
+	padding:3px 4px 3px 8px;
+	border:none;
+}
+#sidebar a:hover {
+	background:#e0e0e0 url(images/corner.gif) top right no-repeat;
+	text-decoration:none;
+	border:none;
+}
+#sidebar li{
+	padding:3px 4px 3px 8px;
+	list-style:none;
+	margin: 0;
+}
+/* Footer */
+
+#footer {
+	clear:both;
+	background:#fafafa;
+	padding:0;
+	margin:0;
+	border-top:1px solid #d8d8d8;
+}
+
+#footer a {
+	color:#808080;
+}
+
+#footer a:hover {
+	color:#303030;
+}
+
+#footer p {
+	color:#808080;
+	font-size:1.1em;
+	line-height:1.3em;
+	margin:15px 0 0 0;
+	padding:0;
+}
+img {
+	padding:2px;
+	margin:0 0 8px 0;
+	background-color:#f0f0f0;
+	border:1px solid #d8d8d8;
+}
+/*
+	Admin panel settings
+*/
+dl.admin-list a{
+	border:none;
+}
+
+dl.admin-list dt {
+	text-align:left;
+	display:block;
+	/*width:140px;*/
+	background:#f0f0f0 url(images/corner.gif) top right no-repeat;
+	padding:3px 4px 3px 8px;
+	margin:10px 10px 5px 0;
+	border:none;
+}
+dl.admin-list dt:hover {
+	background:#e0e0e0 url(images/corner.gif) top right no-repeat;
+	text-decoration:none;
+	border:none;
+}
+blockquote {
+	background:#f0f0f0;
+	padding:10px;
+	padding: 0;
+}
+/*
+.submitted
+{
+	font-size: 0.8em;
+	text-align:left;
+	display:block;
+
+	background:#f0f0f0 url(images/corner.gif) top right no-repeat;
+	padding:3px 4px 3px 8px;
+	margin:10px 10px 5px 0;
+	border:none;
+}
+li.node_read_more{
+	text-align:left;
+	display:block;
+
+	background:#f0f0f0 url(images/corner.gif) top right no-repeat;
+	padding:3px 4px 3px 8px;
+	margin:10px 10px 5px 0;
+	border:none;
+}
+li.node_read_more:hover {
+	background:#e0e0e0 url(images/corner.gif) top right no-repeat;
+	text-decoration:none;
+	border:none;
+}
+ul.links{
+	float: right;
+	margin-bottom: 5px;
+	padding: 2px;
+	text-align: right;
+}
+*/

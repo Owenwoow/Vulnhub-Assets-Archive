@@ -30,7 +30,6 @@
   
   - **Official URL:** [填写URL]
   - **Source:** [填写从靶机那个目录下提取的文件]
-  - **Archive MD5:** `[填写MD5]`
 
 ## Step 4: 自动 Git 提交
 - 确认当前靶机目录已清理完毕（只剩下 README、raw 压缩包和 workspace 文件夹）。
